@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'KoHo', sans-serif;
+    font-size: 1.8em;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    background-color: teal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box{
+    flex:1;
+    height: 100%;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: flex 1s cubic-bezier(.49,.7,.68,.36);
+}
+
+.box .p1, .box .p2{
+    transition: transform 1s;
+    opacity: 0;
+}
+
+.box .p1{
+    transform: translateY(-1000%);
+    
+}
+
+.box .p2{
+    transform: translateY(1000%);
+}
+
+.box:hover{
+    flex:4;
+}
+.box:hover .p1, .box:hover .p2{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.box1{
+    background-image: url('images/paysage1.jpg');
+}
+
+.box2{
+    background-image: url('images/paysage2.jpg');
+}
+
+.box3{
+    background-image: url('images/paysage3.jpg');
+}
+
+.box4{
+    background-image: url('images/paysage4.jpg');
+}
+
+.box5{
+    background-image: url('images/paysage5.jpg');
+}
