@@ -11,3 +11,6 @@
 
 ### projet panneaux animes
 [projet panneaux animes](https://elfindel69.github.io/panneaux)
+
+### projet landing page
+[projet landing page](https://elfindel69.github.io/landing)
