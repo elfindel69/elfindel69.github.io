@@ -1,0 +1,307 @@
+ body{
+     margin: 0;
+     padding: 0;
+ }
+
+ #landing{
+     height: 100vh;
+ }
+
+ .navbar{
+     height: 10%;
+     background-color: rgb(255,0,19);
+ }
+
+ .navbar .row{
+     position: relative;
+     width: 100%;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+
+ .myLogo{
+     width: 80px;
+ }
+ .myMenu{
+     width: 50%;
+     height: 70%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ .myMenu input{
+     text-align: left;
+ }
+
+ #landing .content{
+    height: 90%;
+    background-image: url(img/15.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    height: 100%;
+}
+
+#landing .boxContent{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewContent{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#landing h1{
+    text-align: center;
+    width: 100%;
+}
+
+.viewContent .row{
+    width: 70%;
+    height: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img1,.img2,.img3{
+    height: 100%;
+}
+
+.img1{
+    background-image: url(img/mcdo.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+.img2{
+    background-image: url(img/coca.png);
+    background-position: center;
+    background-size: cover; 
+}
+
+.img3{
+    background-image: url(img/voiture.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+.myLink{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+#Annonces {
+    position: relative;
+    height: 100vh;
+}
+
+#Annonces h1{
+    width: 100%;
+    text-align: left;
+}
+#Annonces .boxContent{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ #Annonces .myCards{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+ }
+ #Annonces .row{
+    position: relative;
+    width: 80%;
+    height: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Annonces .card{
+    position: relative;
+    height: 90%;
+    width: 30%;
+    padding: 0;
+}
+
+.card-img-top{
+    height: 50%;
+}
+
+#Annonces .myLink{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#stats{
+    height: 80vh;
+    background-color: lightgrey;
+}
+
+#stats .boxContent{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#stats .myCards{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+ }
+ #stats .row{
+    position: relative;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#stats .card{
+    position: relative;
+    height: 90%;
+    width: 30%;
+    padding: 0;
+    border: 1px solid gray;
+}
+
+.myCard-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#stats .card h1{
+    text-align: center;
+    font-size: 7em;
+}
+
+#stats .card p{
+    text-align: center;
+    font-size: 14px;
+}
+
+.slider{
+    width: 100%;
+}
+
+.slider p{
+    text-align: left;
+}
+
+.stats-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#stats h1{
+    text-align: center;
+}
+.stats-text p{
+    text-align: center;
+}
+
+#marketing{
+    height: 70vh;
+}
+
+#marketing .boxContent{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#marketing h1{
+    text-align: center;
+}
+
+#marketing .row p::before{
+    font-style: italic;
+    content: "\"";
+}
+#marketing .row p{
+    font-style: italic;
+}
+#marketing .row p::after{
+    font-style: italic;
+    content: "\"";
+}
+#marketing .img1{
+    height: 50px;
+    width: 50%;
+    background-image: url(img/monsanto.png);
+    background-position: center;
+    background-size: cover;
+}
+#marketing .img2{
+    height: 50px;
+    width: 50%;
+    background-image: url(img/edf.png);
+    background-position: center;
+    background-size: cover;
+}
+#marketing .img3{
+    height: 50px;
+    width: 60px;
+    background-image: url(img/facebook.png);
+    background-position: center;
+    background-size: cover;
+}
+#marketing .img4{
+    height: 50px;
+    width: 60px;
+    background-image: url(img/instagram.png);
+    background-position: center;
+    background-size: cover;
+}
+#marketing .img5{
+    height: 50px;
+    width: 60px;
+    background-image: url(img/twitter.png);
+    background-position: center;
+    background-size: cover;
+}
+#marketing .img6{
+    height: 50px;
+    width: 60px;
+    background-image: url(img/pinterest.png);
+    background-position: center;
+    background-size: cover;
+}
