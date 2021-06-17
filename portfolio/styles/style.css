@@ -160,6 +160,10 @@ h2{
     align-content: center;
 }
 
+.black{
+    color: black;
+}
+
 .img-infos {
     height: 200px;
     width: 200px;
