@@ -11070,7 +11070,7 @@ label, .form-group button {
   margin-top: 10px;
 }
 
-.spring,.cs,.hibernate{
+.icons{
   display: inline-block;
  
   position: relative;
@@ -11080,15 +11080,51 @@ label, .form-group button {
   background-size: contain;
   background-repeat: no-repeat;
 }
-
+.java{
+  background-image: url('../assets/img/Java_Logo.svg');
+}
 .spring{
   background-image: url('../assets/img/spring.png');
 }
-
+.angular{
+  background-image: url('../assets/img/Angular_full_color_logo.svg');
+}
 .cs{
   background-image: url('../assets/img/csharp_original_logo_icon_146578.png');
 }
-
+.js{
+  background-image: url('../assets/img/1200px-Unofficial_JavaScript_logo_2.svg.png');
+}
+.php{
+  background-image: url('../assets/img/320px-PHP-logo.svg.png');
+}
 .hibernate{
   background-image: url('../assets/img/hibernate_icon_whitebkg_48px.png');
+}
+.symfony{
+  background-image: url('../assets/img/symfony_black_03.png');
+}
+
+.electron{
+  background-image: url('../assets/img/1200px-Electron_Software_Framework_Logo.svg.png');
+}
+
+.mysql{
+  background-image: url('../assets/img/1200px-MySQL.svg.png');
+}
+
+.android{
+  background-image: url('../assets/img/767px-Android_robot.svg.png');
+}
+
+.html{
+  background-image: url('../assets/img/5352-html5_102567.png');
+}
+
+.css{
+  background-image: url('../assets/img/4202020css3htmllogosocialsocialmedia-115668_115633.png');
+}
+
+.bootstrap{
+  background-image: url('../assets/img/Bootstrap_logo.svg.png');
 }
