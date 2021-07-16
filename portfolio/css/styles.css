@@ -11069,3 +11069,26 @@ label, .form-group button {
 .form-group button{
   margin-top: 10px;
 }
+
+.spring,.cs,.hibernate{
+  display: inline-block;
+ 
+  position: relative;
+  width: 48px;
+  height: 48px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.spring{
+  background-image: url('../assets/img/spring.png');
+}
+
+.cs{
+  background-image: url('../assets/img/csharp_original_logo_icon_146578.png');
+}
+
+.hibernate{
+  background-image: url('../assets/img/hibernate_icon_whitebkg_48px.png');
+}
