@@ -4691,6 +4691,7 @@ fieldset:disabled .btn {
 
 .card-img-portfolio,
 .card-img-java,
+.card-img-java_ee,
 .card-img-perso {
     position: relative;
     height: 28%;
@@ -4706,6 +4707,10 @@ fieldset:disabled .btn {
 
 .card-img-java {
     background-image: url('../assets/img/483px-Java_Logo.svg.png');
+}
+
+.card-img-java_ee {
+    background-image: url('../assets/img/java_ee_logo_vert_v2.webp');
 }
 
 .card-img-perso {
@@ -10917,6 +10922,10 @@ label,
 
 .java {
     background-image: url('../assets/img/Java_Logo.svg');
+}
+
+.java_ee {
+    background-image: url('../assets/img/java_ee_logo_vert_v2.webp');
 }
 
 .spring {
