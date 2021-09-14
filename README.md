@@ -17,3 +17,6 @@
 
 ### projet portfolio
 [projet portfolio](https://elfindel69.github.io/portfolio)
+
+### projet weatherAPI
+[projet weatherAPI](https://elfindel69.github.io/weatherAPI)
